@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Fira Sans", sans-serif;
+  }
+  
+  header {
+    background-color: #4158d0;
+    background-image: linear-gradient(
+      43deg,
+      #4158d0 0%,
+      #c850c0 46%,
+      #ffcc70 100%
+    );
+    text-align: center;
+    padding: 50px;
+    color: white;
+  }
+  
+  footer {
+    background-color: darkslategrey;
+    text-align: center;
+    color: white;
+    padding: 30px;
+  }
+  
+  main {
+    margin: 25px;
+  }
+  
+  h2 {
+    margin: 15px 0px;
+  }
+  
+  .caja {
+    border: 1px solid rgb(22, 46, 0);
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    color: white;
+  }
+  
+  #box1 {
+    background-color: #369671;
+  }
+  #box2 {
+    background-color: #369671;
+  }
+  #box3 {
+    background-color: #2e765a;
+  }
+  #box4 {
+    background-color: #265843;
+  }
+  #box5 {
+    background-color: #1d3b2e;
+  }
+  #box6 {
+    background-color: #1b3629;
+  }
+  #box7 {
+    background-color: #0c1400;
+  }
+  
+  .contenedor-padre{
+    display: flex;
+    background-color: lightsteelblue;
+  }
+  
+  .contenedor-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .contenedor-columna{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contenedor-columna-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .contenedor-wrap{
+    display: flex;
+    background-color: lightsteelblue;
+    flex-wrap: wrap;
+  }
+  
+  .contenedor-centrado{
+    display: flex;
+    background-color: lightsteelblue;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .contenedor-around{
+    display: flex;
+    background-color: lightsteelblue;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .contenedor-evenly{
+    display: flex;
+    background-color: lightsteelblue;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .contenedor-between{
+    display: flex;
+    background-color: lightsteelblue;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .contenedor-vertical{
+    display: flex;
+    background-color: lightsteelblue;
+    flex-wrap: wrap;
+    height: 500px;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .columnas{
+      display: flex;
+      justify-content: space-around;
+  }
